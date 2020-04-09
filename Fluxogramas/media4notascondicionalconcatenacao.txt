@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wander"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-04-09 09:47:44 "/>
+        <attribute name="created" value="d2FuZGVyO0RFU0tUT1AtTEpBVThWUjsyMDIwLTA0LTA5OyIwODowODozNSAiOzI5NDQ="/>
+        <attribute name="edited" value="d2FuZGVyO0RFU0tUT1AtTEpBVThWUjsyMDIwLTA0LTA5OyIwOTo0Nzo0NCAiOzM7MzA1OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Nome do aluno: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Informe o valor da nota1: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Informe o valor da nota2: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Informe o valor da nota3: &quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Informe o valor da nota4: &quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="nome &amp; &quot; a media de suas notas &#233; &quot; &amp; media &amp; &quot;, parab&#233;ns voc&#234; passou de ano!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nome &amp; &quot; a m&#233;dia de suas notas &#233; &quot; &amp; media &amp; &quot;, infelizmente voc&#234; n&#227;o passou!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

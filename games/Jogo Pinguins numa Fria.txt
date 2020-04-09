@@ -1,0 +1,29 @@
+Jogo Pinguins numa Fria
+
+pinguim azul filhote sobe no gelo
+pinguim azul pai sobe no gelo
+clica no gelo
+pinguim azul pai desce 
+clica no gelo
+pinguim azul filhote volta 
+pinguim verde filhote sobe
+clica no gelo
+pinguim azul filhote desce
+clica no gelo
+pinguim verde filhote volta
+pinguim verde pai sobe
+clica no gelo
+pinguim verde pai desce
+clica no gelo
+pinguim verde filhote volta
+pinguim vermelho filhote sobe
+clica no gelo
+pinguim verde filhote desce
+clica no gelo
+pinguim vermelho filhote volta
+pinguim vermelho pai sobe
+clica no gelo
+pinguim vermelho pai desce
+pinguim vermelho filhote desce
+
+https://rachacuca.com.br/jogos/pinguins-numa-fria/
