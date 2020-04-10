@@ -12,6 +12,11 @@ https://studio.code.org/s/mc/stage/1/puzzle/1
  
 https://rachacuca.com.br/jogos/pinguins-numa-fria/
 
-- Aplicativo para treinar pseudocódigo e fluxogramas:
+- Aplicativo para treinar lógica com fluxogramas:
 
 http://flowgorithm.org/download/index.htm 
+
+- Aplicativo Portugol Studio:
+
+https://github.com/UNIVALI-LITE/Portugol-Studio/releases
+
